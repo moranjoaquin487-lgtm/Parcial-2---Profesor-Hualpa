@@ -1,15 +1,3 @@
-#!/usr/bin/env python3
-"""
-TPI: Gestión Jerárquica de Datos (Productos tecnológicos)
-Dominio: Productos tecnológicos
-Jerarquía: Categoria -> Marca -> Familia
-Archivo: CSV por carpeta de 'Familia', contiene los productos de esa familia.
-
-Instrucciones:
-- Ejecutar: python tpi_jerarquia.py
-- El programa crea la carpeta 'data' en el mismo directorio si no existe.
-- Siguiendo el menú podrás crear, listar, filtrar, modificar, eliminar, ordenar y ver estadísticas.
-"""
 
 import os
 import csv
@@ -450,3 +438,4 @@ def menu():
 
 if __name__ == "__main__":
     menu()
+
